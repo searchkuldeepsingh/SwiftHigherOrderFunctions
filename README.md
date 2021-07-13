@@ -12,12 +12,5 @@ Shorthand arguments - Swift automatically provides shorthand argument names to i
  
 Optional - A type that represents either a wrapped value or nil, the absence of a value.
  
- 
-Map, 
-Filter,
-Reduce,
-Sorted,
-FlatMap(deprecate),
-CompactMap,
-Chaining
 
+Those function are Map, Filter, Reduce, Sort, CompactMap, Chaining, Contains, Partition.
