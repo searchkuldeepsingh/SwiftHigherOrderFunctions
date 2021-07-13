@@ -14,3 +14,12 @@ Optional - A type that represents either a wrapped value or nil, the absence of 
  
 
 Those function are Map, Filter, Reduce, Sort, CompactMap, Chaining, Contains, Partition.
+
+
+Swift 4.2 introduce new collection higher order functions.
+allSatisfy
+Previosly we saw the contains method that return a bool based on whether at least one element in a collection satisfies a condition. The new allSatisfy method instead returns a bool based on whether all elements satisfy a condition.
+firstIndex and lastIndex
+We now have firstIndex(where:) and firstIndex(of:) that return the first index where the specified value appears in the collection. We have also lastIndex(of:) and lastIndex(where:) that returns the last index in which an element of the collection satisfies the given predicate.
+removeAll
+Now we have a new method removeAll(where:) that removes all the elements that satisfy the given predicate.
